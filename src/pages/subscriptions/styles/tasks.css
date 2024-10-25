@@ -1,0 +1,56 @@
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  #modal-main {
+    position:fixed;
+    background: white;
+    height: 90vh;
+    border-radius: 4px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+
+  #outer {
+    width: 100%;
+    height:22vh;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  color: black;
+}
+
+#help{
+  overflow-y: scroll;
+  height: 92vh;
+}
+#user{
+  z-index: 50;
+  position: absolute;
+}
+#userdiv{
+  position: absolute;
+  z-index: -50;
+  width: 90%;
+}
